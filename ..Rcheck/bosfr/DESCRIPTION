@@ -1,0 +1,17 @@
+Package: bosfr
+Title: Computes exact bounds of Spearman's footrule with missing data
+Version: 0.1.0
+Authors@R: 
+    person("Yijin", "Zeng", ,"yijinzeng98@gmail.com", role = c("aut", "cre", "cph"))
+Author: Yijin Zeng [aut, cre, cph]
+Maintainer: Yijin Zeng <yijinzeng98@gmail.com>
+Description: Computes exact bounds of Spearman's footrule in the presence of missing data, and performs independence test based on the bounds with controlled Type I error regardless of the values of missing data. Suitable only for distinct, univariate data where no ties is allowed.  
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: R (>= 3.2.1)
+Imports: gtools, stats
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Built: R 4.4.0; ; 2025-01-22 11:33:58 UTC; unix
