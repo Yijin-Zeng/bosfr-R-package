@@ -53,6 +53,7 @@
 #'
 #'  \item{bounds.pvalue}{bounds of the p-value of independence test using Spearman's footrule. (Only present if argument \code{pval = TRUE}.)}
 #'
+#'
 #' @references
 #' \itemize{
 #'  \item Zeng Y., Adams N.M., Bodenham D.A. Exact Bounds of Spearman's footrule in the Presence of Missing Data with Applications to Independence Testing. arXiv preprint arXiv:2501.11696. 2025 Jan 20.
