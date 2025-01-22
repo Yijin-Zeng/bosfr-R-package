@@ -11,7 +11,8 @@ missing data, and performs independence test based on the bounds with
 controlled Type I error regardless of the values of missing data. Note
 this package is suitable only for univariate distinct data where no ties
 is allowed. Bounds of Kendall’s tau is also available with missing data,
-provided the bounds of Spearman’s footrule. See for more details.
+provided the bounds of Spearman’s footrule. See Zeng et al., 2025 for
+more details.
 
 ## Installation
 
