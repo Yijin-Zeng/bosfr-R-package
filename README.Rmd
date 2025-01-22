@@ -26,8 +26,8 @@ the bounds of Spearman's footrule. See \cite{Zeng et al., 2025} for more details
 You can install the development version of bosfr from [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("bosfr")
-pak::pak("Yijin-Zeng/bosfr")
+# install.packages("devtools")
+devtools::install_github("Yijin-Zeng/bosfr-R-package")
 ```
 
 ## Example
@@ -55,6 +55,5 @@ boundsKendall(X, Y)
 ```
 
 ## References
-
 \item Zeng Y., Adams N.M., Bodenham D.A. Exact Bounds of Spearman's footrule in the Presence of Missing Data with Applications to Independence Testing. arXiv preprint arXiv:2501.11696. 2025 Jan 20.
 
